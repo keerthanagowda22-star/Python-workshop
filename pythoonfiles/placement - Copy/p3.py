@@ -1,0 +1,27 @@
+student=["Adi","Navya","poorvi","Keerthi","Yash","Rohit"];
+print(student)
+print("----------------")
+print(student[0])
+print("----------------")
+print(student[4])
+print("----------------")
+student[1]="Likii"
+print(student)
+print("----------------")
+student.remove("Rohit")
+student.remove("Adi")
+print("removed:",student)
+student.insert(0,"Hari")
+student.insert(5,"Ram")
+print("----------------")
+print(student)
+print("----------------")
+student.pop(4)
+print(student)
+print("----------------")
+print(f"length of list :{len(student)}")
+print("----------------")
+student.append(1)
+print(student)
+#append is used to add the value in a list 
+# the alphabet list is known as homogenous and the mixed is known to be heterogenous
